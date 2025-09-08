@@ -69,9 +69,9 @@ namespace Lab1
             if (x > -1 && x <= 0)
                 answer = x + 1;
             else if (x <= -1)
-                answer = x + 0;
+                answer = 0;
             else if (x > 0)
-                answer = x + 1;
+                answer = 1;
             // end
             return answer;
         }
@@ -144,3 +144,4 @@ namespace Lab1
         }
     }
 }
+
